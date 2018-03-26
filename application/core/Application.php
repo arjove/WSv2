@@ -96,7 +96,7 @@ class Application
         }
 
         // check for action: no action given ? then make action = default action (from config)
-        if (!$this->action_name OR (strlen($this->action_name) == 0)) {
+        if (!$this->action_name || (strlen($this->action_name) == 0)) {
             $this->action_name = Config::get('DEFAULT_ACTION');
         }
 
