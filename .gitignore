@@ -5,3 +5,6 @@
 /vendor/
 /application/config/config.development.php
 /application/config/config.production.php
+public/assets/
+public/pages/
+ds.html
